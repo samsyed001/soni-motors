@@ -1,0 +1,70 @@
+.navbar-background-img{
+    background-color: black;
+    flex-wrap: wrap;
+}
+
+/* https://s3-alpha-sig.figma.com/img/3622/f459/6fbf1c3b5f03b0183021ed04c348aeed?Expires=1730678400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=T-gTj6lUoOfxB~chwPQ48QoJY-ej2ryAhZu-6pEQqZfmclmKpcb-iyGKwS9rLRDNILtKURZhJPgCTfzwwbEk4cyS8lSnxMcS7OiPABh6H8yid4sOsOoV0MOFcBjeB8dVBmE8X6jZOTOL1bW34P5wu3LNRd3KgRFjCJmtchZMjYZqNZyZ~6k77p73ZN5C3~tlVIzCFMGSbL3KN~xbOzivEKl-cF~Y1zCdwR6bmVIBlt2ljwh7tPK8XTDZBoqwC3UIbyw3D7D10c4A~dHAjPNas9akCrKQ2QlVJi1fpSS5VC2FAff5Q7LMXXe2vzTtWKP3EtVhEOCtcevjNMFuENB2AA__ */
+/* https://s3-alpha-sig.figma.com/img/21bc/ea9a/e04efd85a5394040a3732e70433c74e3?Expires=1730678400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=g-fsuwtGTcflt0eR5phwzCuPoQ-DQ6LyDLuk427MrF776YMBxqcVUkinCZKMnIVGnN2u9eqzxsdmxdXEzvybaFA6b8miQgLXjYlmqEGddMwcUXnSRPuio95GsDX5hWBKJW~zItKkNBb5CAqTqoFvU3eDLgFelvo7tCubSOt7JULC8y8ccvxM~eFUMzTcVB3awRQWClN6ND2QQEutGWKCXMcE2X~WmZHJLdVz3Ng6CRsfZBnA8-Pzvi7CavrLIYjhb8KI8fqlGNpY8UsPx6~ZRpAn1AI6XWyGIK0QCwatM0JXC0hWsOUshrLWKZep906KmcDz2t99VGhl6GyxXDSpRg__ */
+
+  /* Navbar.css */
+
+/* Ensure icons are hidden below 1000px */
+/* Optionally add styles for desktop view */
+@media (min-width: 1070px) {
+ .main-logo-img{
+  width: 140px;
+  padding-bottom: 10px;
+ }
+}
+
+@media (min-width: 1050px) {
+  .main-logo-img{
+   width: 140px;
+   padding-bottom: 10px;
+  }
+ }
+@media (max-width: 999px) {
+    .icon {
+      display: none; /* Adjust this class to hide your icons as needed */
+    }
+    
+    .main-logo-img{
+      width: 140px;
+      padding-bottom: 10px;
+     }
+  }
+  
+  /* Optionally add styles for desktop view */
+  @media (min-width: 1000px) {
+    .icon {
+      display: inline; /* Show icons on larger screens */
+    }
+  }
+  
+  @media (max-width: 991px) {
+    .main-logo-img{
+      width: 150px;
+      margin-top: 20px;
+    }
+  }
+/* 
+   @media (max-width: 910px) {
+    .navbar-background-img{
+      justify-content: center;
+    }
+  }  */
+
+  @media (max-width: 800px) {
+    .navbar-background-img{
+      justify-content: space-between;
+      padding: 0px 10px;
+    }
+  } 
+
+  @media screen and (max-width: 440px) {
+    .phone-nav{
+      font-size: 14px;
+    }
+  }
+
+  

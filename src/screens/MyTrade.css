@@ -1,0 +1,31 @@
+.form1-back img {
+    width: 100%; /* Makes the image responsive to the container */
+    max-width: none;                 /* Ensures the image doesn't shrink */
+    height: 40vh; /* Maintains the aspect ratio */
+    object-fit: cover; /* Ensures it covers the container area without shrinking */
+  }
+
+ @media screen and (max-width: 1350px) {
+  .info-text{
+    font-size: 14px;
+  }
+ }
+
+
+ @media screen and (max-width: 1160px) {
+ .card-bhai {
+  width: 350px;
+ }
+ }
+
+
+ @media screen and (max-width: 390px) {
+  .card-bhai {
+   width: 300px;
+  }
+
+  .info-text{
+    font-size: 13px;
+  }
+  }
+ 
