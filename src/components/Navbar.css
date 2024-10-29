@@ -1,6 +1,8 @@
 .navbar-background-img{
-    background-color: black;
-    flex-wrap: wrap;
+  background: linear-gradient(180deg, #26262670 35%, #26262670 66%, #26262670 88%, transparent);
+  flex-wrap: wrap;
+  position: absolute;
+  width: 100%;
 }
 
 
