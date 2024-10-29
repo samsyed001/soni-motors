@@ -203,99 +203,90 @@ const Inventry = () => {
                         </div>
 
                         {/* Car List */}
-                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 ">
-                            {
-                                card_data.map((item ,index)=>{
-                                    const {text,link ,price, fainance,image ,body_style ,mileage  ,transmission ,fuelType ,engine ,driventain } = item
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                            {card_data.map((item, index) => {
+                                const { text, link, price, finance, image, body_style, mileage, transmission, fuelType, engine, drivetrain } = item;
 
-                                    return(
-                                        <div key={index} className="bg-white rounded-lg shadow-md overflow-hidden pb-5">
-                                            <img src={image} alt="Car Image" className="w-full h-48 object-cover" />
-                                            <div className="flex gap-1 mt-4">
-                                                <button style={{paddingLeft:"10px"}} className=" text-white"><img src="./assets/Button (2).png" alt="" /></button>
-                                                <button className=" text-white"><img src="./assets/Button (3).png" alt="" /></button>
+                                return (
+                                    <div key={index} className="bg-white rounded-lg shadow-md overflow-hidden pb-5">
+                                        <img src={image} alt="Car Image" className="w-full h-48 object-cover" />
+                                        <div className="flex gap-1 mt-4">
+                                            <button style={{ paddingLeft: "10px" }} className="text-white">
+                                                <img src="./assets/Button (2).png" alt="" />
+                                            </button>
+                                            <button className="text-white">
+                                                <img src="./assets/Button (3).png" alt="" />
+                                            </button>
+                                        </div>
+
+                                        <div className="flex justify-between items-center mt-2 px-4">
+                                            <div className="flex items-center mt-2">
+                                                <input type="checkbox" id={`showPrice${index}`} className="mr-2" />
+                                                <label htmlFor={`showPrice${index}`} className="text-gray-700">Show Prices</label>
                                             </div>
+                                            <p className={`call-price text-xl mt-2 ${price === "call for price" ? "text-red-500" : "text-black"}`}>
+                                                {price}
+                                            </p>
+                                        </div>
 
-                                            <div  className="flex justify-between items-center mt-2 px-4">
-                                                <div className="flex items-center mt-2">
-                                                    <input type="checkbox" id={showPrice${index}} className="mr-2" />
-                                                    <label htmlFor={showPrice${index}} className="text-gray-700">Show Prices</label>
-                                                </div>
-                                                <p className={call-price text-xl mt-2 ${price === "call for price" ? "text-red-500" : "text-black"}}>
-                                                    {price}
+                                        <div className="px-4">
+                                            <h3 style={{ fontWeight: '500' }} className="text-lg">{text}</h3>
+                                            <p style={{ fontSize: '14px' }} className="text-gray-500">{link}</p>
+
+                                            <div className="flex justify-between items-center mt-2" style={{ borderBottom: '1px solid gray' }}>
+                                                <p style={{ fontSize: '14px' }}>Finance Form:</p>
+                                                <p
+                                                    style={{ fontSize: "17px", fontWeight: "700" }}
+                                                    className={`mt-1 ${finance === "Sold" ? "text-red-500" : finance === "Available" ? "text-green-500" : finance === "Upcoming" ? "text-blue-500" : finance === "Pending" ? "text-orange-300" : "text-black"}`}
+                                                >
+                                                    {finance}
                                                 </p>
-
                                             </div>
 
-                                            <div className="px-4 ">
-                                                <h3 style={{fontWeight:'500'}} className="text-lg ">{text}</h3>
-                                                <p style={{fontSize:'14px'}} className="text-gray-500">{link}</p>
-                                                {/* Checkbox */}
-
-
-                                                <div className="flex justify-between items-center mt-2 " style={{borderBottom:' 1px solid gray'}}>
-                                                    <p style={{fontSize:'14px'}}>Finance Form : </p>
-                                                    <p style={{fontSize:"17px", fontWeight:"700" }} className={mt-1 ${fainance === "Sold" ? "text-red-500": fainance === "Available"? "text-green-500": fainance === "Upcoming"? "text-blue-500": fainance === "Pending"? "text-orange-300": "text-black"}}>
-                                                        {fainance}
-                                                    </p>
-
+                                            <div style={{ lineHeight: '30px' }} className="mt-2">
+                                                <div style={{ backgroundColor: '#F5F5F5' }} className="flex gap-20 mb-2 px-2 txt-size">
+                                                    <p className="font-semibold">Mileage:</p>
+                                                    <p>{mileage}</p>
                                                 </div>
 
-                                                <div style={{lineHeight:'30px'}} className="mt-2">
-
-
-
-
-
-                                                    <div style={{backgroundColor:'#F5F5F5'}} className="flex gap-20 mb-2 px-2 txt-size">
-                                                        <p className="font-semibold">Mileage:</p>
-                                                        <p >{mileage}</p>
-                                                    </div>
-
-                                                    <div className="flex gap-[88px] mb-2 px-2 txt-size">
-                                                        <p className="font-semibold">Engine:</p>
-                                                        <p>{engine}</p>
-                                                    </div>
-
-                                                    <div style={{backgroundColor:'#F5F5F5'}} className="flex gap-[65px] mb-2 px-2 txt-size">
-                                                        <p className="font-semibold">Drivetrain:</p>
-                                                        <p > {driventain}</p>
-                                                    </div>
-
-                                                    <div  className="flex gap-[65px] mb-2 px-2 txt-size">
-                                                        <p className="font-semibold">Fuel Type:</p>
-                                                        <p > {fuelType}</p>
-                                                    </div>
-
-                                                    <div style={{backgroundColor:'#F5F5F5'}}   className="flex gap-[50px] mb-2 txt-size">
-                                                        <p className="font-semibold">Transmission:</p>
-                                                        <p>{transmission}</p>
-                                                    </div>
-
-
-
-                                                    <div  className="flex gap-[68px] mb-2 txt-size">
-                                                        <p className="font-semibold">Body Style:</p>
-                                                        <p>{body_style}</p>
-                                                    </div>
+                                                <div className="flex gap-[88px] mb-2 px-2 txt-size">
+                                                    <p className="font-semibold">Engine:</p>
+                                                    <p>{engine}</p>
                                                 </div>
 
-
-
-
-                                                <div className="mt-4 flex justify-between">
-                                                    <Link to="/JeepWrangular"> <button className="card-btn border-2 border-red-500 text-black  rounded black-hover">View Details</button></Link>
-                                                    <button className="card-btn bg-black text-white  rounded c-btn-2 red-hover">Carfax Report</button>
+                                                <div style={{ backgroundColor: '#F5F5F5' }} className="flex gap-[65px] mb-2 px-2 txt-size">
+                                                    <p className="font-semibold">Drivetrain:</p>
+                                                    <p>{drivetrain}</p>
                                                 </div>
+
+                                                <div className="flex gap-[65px] mb-2 px-2 txt-size">
+                                                    <p className="font-semibold">Fuel Type:</p>
+                                                    <p>{fuelType}</p>
+                                                </div>
+
+                                                <div style={{ backgroundColor: '#F5F5F5' }} className="flex gap-[50px] mb-2 txt-size">
+                                                    <p className="font-semibold">Transmission:</p>
+                                                    <p>{transmission}</p>
+                                                </div>
+
+                                                <div className="flex gap-[68px] mb-2 txt-size">
+                                                    <p className="font-semibold">Body Style:</p>
+                                                    <p>{body_style}</p>
+                                                </div>
+                                            </div>
+
+                                            <div className="mt-4 flex justify-between">
+                                                <Link to="/JeepWrangular">
+                                                    <button className="card-btn border-2 border-red-500 text-black rounded black-hover">View Details</button>
+                                                </Link>
+                                                <button className="card-btn bg-black text-white rounded c-btn-2 red-hover">Carfax Report</button>
                                             </div>
                                         </div>
-                                    )
-                                })
-                            }
-
-
-
+                                    </div>
+                                );
+                            })}
                         </div>
+
                     </div>
                 </div>
             </div>
