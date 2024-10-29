@@ -1,0 +1,59 @@
+.home-background-imgs{
+    background-color: #F5F5F5;
+    padding: 60px 20px;
+
+}
+
+
+
+    .hover-btn-sary{
+    background-color: #F40000;
+    transition: .4s ease-in-out;
+   }
+
+
+    
+
+
+.hover-btn-sary:hover{
+    background-color:  black;
+    transition: .4s ease-in-out;
+    color:  white;
+    }
+
+
+    .drop-down-menu{
+        display: flex;
+         flex-wrap:  wrap ;
+         align-items: center;
+          justify-content: center;
+           gap: 20px;
+    }
+
+.search-wala-button {
+    text-align: center;
+}
+
+    @media screen and (max-width:1150px) {
+        .search-wala-button {
+            width: 60%;
+        }
+    }
+
+    @media screen and (max-width:930px) {
+        .search-wala-button ,.drop-home-wala select{
+            width: 75%;
+        }
+    }
+    
+
+    @media screen and (max-width:655px) {
+        .search-wala-button ,.drop-home-wala select{
+            width: 100%;
+        }
+        .home-k-btn{
+            width: 100%;
+            padding: 4px ;
+            text-align: center;
+        }
+    }
