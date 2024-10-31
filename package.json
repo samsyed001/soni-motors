@@ -15,10 +15,14 @@
     "react-bootstrap": "^2.10.5",
     "react-dom": "^18.3.1",
     "react-icons": "^5.3.0",
+<<<<<<< HEAD
     "react-router-dom": "^6.27.0",
     "react-slick": "^0.30.2",
     "slick-carousel": "^1.8.1",
     "swiper": "^11.1.14"
+=======
+    "react-router-dom": "^6.27.0"
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
   },
   "devDependencies": {
     "@eslint/js": "^9.13.0",
@@ -26,7 +30,10 @@
     "@types/react-dom": "^18.3.1",
     "@vitejs/plugin-react": "^4.3.3",
     "autoprefixer": "^10.4.20",
+<<<<<<< HEAD
     "daisyui": "^4.12.14",
+=======
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
     "eslint": "^9.13.0",
     "eslint-plugin-react": "^7.37.1",
     "eslint-plugin-react-hooks": "^5.0.0",

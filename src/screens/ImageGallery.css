@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 
@@ -876,6 +877,121 @@
     .none{
         display: none;
     }
+=======
+/* .responsive1{
+    width: 622px;margin-left: 2px;
+}
+.responsive2{
+    width: 590px;
+}
+.responsive3{
+    width: 621px;
+}
+.responsive5{
+    height: 181px;
+}
+.responsive6{
+    height: 181px;
+} */
+
+.img-gallery-main{
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px;
+}
+
+ .first-3-imgs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+
+    text-align: center;
+    margin: 0 auto ;
+}
+
+.first-3-imgs img{
+    width: 100%;
+    height: 400px;
+
+}
+
+
+ .sec-3-imgs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    gap:10px;
+
+    text-align: center;
+    margin: 0 auto ;
+    margin-top: 10px;
+}
+
+.sec-3-imgs img{
+    height: 400px;
+
+}
+
+.third-3-imgs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    gap:10px;
+
+    text-align: center;
+    margin: 0 auto ;
+    margin-top: 10px;
+}
+
+.third-3-imgs img{
+    width: 97%;
+    height: 400px;
+
+}
+
+
+.four-imgs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 60%;
+    gap:10px;
+
+    text-align: center;
+    margin: 0 auto ;
+    margin-top: 10px;
+}
+
+.four-imgs img{
+    height: 400px;
+    width: 78%;
+
+
+}
+
+
+.five-imgs{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+
+    text-align: center;
+    margin: 0 auto ;
+    margin-top: 10px;
+}
+
+.five-imgs img{
+    height: 400px;
+    width: 29.5%;
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
 }
 
 
@@ -1067,15 +1183,22 @@
 
     .first-3-imgs img , .sec-3-imgs img ,
     .third-3-imgs img{
+<<<<<<< HEAD
         width: 270px;
     }
 
     
+=======
+        width: 280px;
+    }
+
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
     .four-imgs img{
         width: 500px;
     }
 
     .five-imgs img{
+<<<<<<< HEAD
         width: 270px;
     }
 
@@ -1095,4 +1218,9 @@
 
    
 
+=======
+        width: 280px;
+    }
+
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
 }

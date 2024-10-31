@@ -1,6 +1,7 @@
 
 
 
+<<<<<<< HEAD
 import { BsEmojiSurpriseFill } from "react-icons/bs";
 import { LiaComments } from "react-icons/lia";
 import { AiOutlineLike } from "react-icons/ai";
@@ -9,6 +10,12 @@ const InstagramCard = ({ imgSrc, likes, description }) => {
   return (
     <a href="https://www.facebook.com/p/Soni-Auto-Market-100088960650309/" target="_blank">
     <div className="bg-white shadow-md overflow-hidden  mx-auto card-ki-width">
+=======
+
+const InstagramCard = ({ imgSrc, likes, description }) => {
+  return (
+    <div className="bg-white  shadow-md overflow-hidden w-full max-w-sm mx-auto">
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
       {/* Header */}
       <div className="flex items-center p-2 ">
         <img
@@ -20,7 +27,11 @@ const InstagramCard = ({ imgSrc, likes, description }) => {
           <p className="font-semibold">Soni Auto Market</p>
           <p className="text-sm text-gray-500">80 Manitoba St E, Canada</p>
         </div>
+<<<<<<< HEAD
         <span className="ml-auto three-dots text-gray-400">•••</span>
+=======
+        <span className="ml-auto text-gray-400">•••</span>
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
       </div>
 
       {/* Image */}
@@ -29,6 +40,7 @@ const InstagramCard = ({ imgSrc, likes, description }) => {
       {/* Footer */}
       <div className="p-4">
         <div className="">
+<<<<<<< HEAD
           <div className="flex space-x-2 text-gray-600 icons-card" style={{justifyContent:'space-between', alignItems:'center'}}>
           <div className="flex text-gray-600 icons-card">
           <i className="fa-regular fa-thumbs-up" style={{color:'#fff', background:'#577FFA', padding:'5px', borderRadius:'100px', fontSize:'18px', height:'30px', width:'30px', display:'flex', alignItems:'center', justifyContent:'center'}}></i> 
@@ -57,6 +69,20 @@ const InstagramCard = ({ imgSrc, likes, description }) => {
       </div>
     </div>
     </a>
+=======
+          <div className="flex space-x-2 text-gray-600">
+          <img src="./assets/d1bd.png.png" alt="" /> 
+            <img src="./assets/h5ft.png.png" alt="" />{/* Replace with heart SVG if needed */}
+            <img src="./assets/9y56.png.png" alt="" />
+          </div>
+         <div>
+         <p className="text-sm font-semibold">{likes} likes</p>
+         </div>
+        </div>
+        <p className="text-gray-800 text-sm">{description}</p>
+      </div>
+    </div>
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
   );
 };
 

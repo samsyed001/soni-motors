@@ -14,7 +14,14 @@ button{
     cursor: pointer;
 }
 
+<<<<<<< HEAD
 
+=======
+input{
+    outline: none;
+    cursor: pointer;
+}
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
 
 .credit-div{
     display: flex;
@@ -26,13 +33,18 @@ button{
 }
 
 .left-btn{
+<<<<<<< HEAD
     padding: 8px 0px;
+=======
+    padding: 8px ;
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
    }
 
+<<<<<<< HEAD
   
 
    .icons-card i{
@@ -207,6 +219,12 @@ textarea:focus {
     
 
 
+=======
+
+
+
+@media screen and (max-width:1100px) {
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
    .left-side{
     
     width: 850px;
@@ -218,6 +236,7 @@ textarea:focus {
     text-align: center;
    }
 
+<<<<<<< HEAD
    .comparison-gp{
     display: flex;
     flex-direction: column;
@@ -228,6 +247,8 @@ textarea:focus {
    }
 
 
+=======
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
    
   
    .credit-div{
@@ -239,6 +260,7 @@ textarea:focus {
     width: 100%;
    }
 
+<<<<<<< HEAD
    .nav-1100{
     background-color: transparent;
     font-size: 18px;
@@ -270,10 +292,13 @@ textarea:focus {
    }
 
    
+=======
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
 }
 
 
 
+<<<<<<< HEAD
 @media screen and (max-width:1025px) {
     .card-ki-width{
         width: 300px;
@@ -286,6 +311,8 @@ textarea:focus {
         width: 250px;
        }
 }
+=======
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
 @media screen and (max-width:812px) {
     .h2-span span{
         font-size: 15px;
@@ -302,6 +329,7 @@ textarea:focus {
     .left-txt , .p{
         width: 470px;
     }
+<<<<<<< HEAD
 
     .home-1100{
         margin-left: 1.9vw;
@@ -329,6 +357,8 @@ textarea:focus {
     .card-ki-width{
         width: 190px;
        }
+=======
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
 }
 
 @media screen and (max-width:700px) {
@@ -361,11 +391,14 @@ textarea:focus {
         gap: 12px;
     }
     
+<<<<<<< HEAD
     .home-1100{
         margin-left: 2.4vw;
         font-size: 18px;
         font-weight: 700;
        }
+=======
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
 }
 
 @media screen and (max-width:600px) {
@@ -389,7 +422,11 @@ textarea:focus {
 
     
 .left-btn{
+<<<<<<< HEAD
     padding: 8px 0px ;
+=======
+    padding: 8px ;
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
     text-align: center;
     display: flex;
     justify-content: center;
@@ -398,6 +435,7 @@ textarea:focus {
    }
 
     
+<<<<<<< HEAD
    .home-1100{
     margin-left: 16px;
     font-size: 18px;
@@ -409,6 +447,8 @@ textarea:focus {
         width: 240px;
        }
 
+=======
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
 
 }
 
@@ -449,10 +489,13 @@ textarea:focus {
     .div-credit{
         width: 100%;
        }
+<<<<<<< HEAD
 
        .card-ki-width{
         width: 220px;
        }
+=======
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
 }
 
 @media screen and (max-width:515px) {
@@ -470,20 +513,31 @@ textarea:focus {
 
     .left-btn{
         font-size: 16px;
+<<<<<<< HEAD
         width: 96%;
     }
 
     .ye-ak{
         width: 95.5%;
+=======
+        width: 100%;
+    }
+
+    .ye-ak{
+        width: 97%;
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
     }
 
 }
 
+<<<<<<< HEAD
 @media screen and (max-width:480px) {
     .card-ki-width{
         width: 400px;
        }
 }
+=======
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
 @media screen and (max-width:440px) {
     .left-side p{
         width: 200px;
@@ -508,10 +562,13 @@ textarea:focus {
 
     }
 
+<<<<<<< HEAD
     .card-ki-width{
         width: 350px;
        }
 
+=======
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
    
 }
 
@@ -530,11 +587,16 @@ textarea:focus {
     .side-bar{
         width: 100%;
     }
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
 }
 
 
 .hoverr:hover{
+<<<<<<< HEAD
     color: #F40000;
     
     
@@ -552,5 +614,10 @@ textarea:focus {
         justify-content: center;
         gap: 30px;
     }
+=======
+    border: 1px solid red;
+    
+    border-radius: 3px;
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
 }
 

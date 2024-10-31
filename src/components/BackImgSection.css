@@ -1,5 +1,9 @@
 .background-img-sec-rs {
+<<<<<<< HEAD
     position: relative; 
+=======
+    position: relative; /* Necessary for the pseudo-element to position correctly */
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
     background-image: url('https://s3-alpha-sig.figma.com/img/3622/f459/6fbf1c3b5f03b0183021ed04c348aeed?Expires=1730678400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=T-gTj6lUoOfxB~chwPQ48QoJY-ej2ryAhZu-6pEQqZfmclmKpcb-iyGKwS9rLRDNILtKURZhJPgCTfzwwbEk4cyS8lSnxMcS7OiPABh6H8yid4sOsOoV0MOFcBjeB8dVBmE8X6jZOTOL1bW34P5wu3LNRd3KgRFjCJmtchZMjYZqNZyZ~6k77p73ZN5C3~tlVIzCFMGSbL3KN~xbOzivEKl-cF~Y1zCdwR6bmVIBlt2ljwh7tPK8XTDZBoqwC3UIbyw3D7D10c4A~dHAjPNas9akCrKQ2QlVJi1fpSS5VC2FAff5Q7LMXXe2vzTtWKP3EtVhEOCtcevjNMFuENB2AA__');
     background-size: cover;
     background-position: center;
@@ -8,6 +12,7 @@
 }
 
 .background-img-sec-rs::before {
+<<<<<<< HEAD
     content: ""; 
     position: absolute; 
     top: 0;
@@ -45,4 +50,34 @@
 
 .text-dark {
     color: #000000; 
+=======
+    content: ""; /* Required for the pseudo-element */
+    position: absolute; /* Positioning to cover the parent */
+    top: 0; /* Align to top */
+    left: 0; /* Align to left */
+    right: 0; /* Stretch to right */
+    bottom: 0; /* Stretch to bottom */
+    background-color: rgba(0, 0, 0, 0.9); /* Dark overlay */
+    z-index: 1; /* Ensure it's above the background but below the content */
+}
+
+/* Add media queries for responsiveness */
+@media (max-width: 640px) {
+    .background-img-sec-rs {
+        height: auto; /* Adjust height for smaller screens */
+        padding: 20px 0px;
+    }
+    .text-2xl {
+        font-size: 1.5rem; /* Smaller font size for mobile */
+    }
+}
+
+/* Ensure text is visible */
+.text-white {
+    color: #ffffff; /* White text */
+}
+
+.text-dark {
+    color: #000000; /* Black text */
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
 }

@@ -4,6 +4,7 @@
         flex-direction: column;
         width: 100%;
     }
+<<<<<<< HEAD
 }
 
 
@@ -32,4 +33,6 @@
 .gepp-black:hover{
     border-color: black;
     transition: .4s ease-in-out;
+=======
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
 }

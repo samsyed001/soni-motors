@@ -1,4 +1,5 @@
 .form1-back img {
+<<<<<<< HEAD
     width: 100%; 
     max-width: none;                
     height: 40vh; 
@@ -21,6 +22,14 @@
 
 
 
+=======
+    width: 100%; /* Makes the image responsive to the container */
+    max-width: none;                 /* Ensures the image doesn't shrink */
+    height: 40vh; /* Maintains the aspect ratio */
+    object-fit: cover; /* Ensures it covers the container area without shrinking */
+  }
+
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
  @media screen and (max-width: 1350px) {
   .info-text{
     font-size: 14px;

@@ -20,6 +20,7 @@ const LastImg = () => {
     </div>
 
     {/* Right Section */}
+<<<<<<< HEAD
     <div style={{borderRight:'6px solid red'}} className="w-full max-w-[713px] bg-black  flex flex-col justify-center items-start  shadow-md">
     <div className="space-y-4" style={{width:'100%'}}>
         <div style={{lineHeight:"25px", justifyContent:'space-between'}} className="flex items-center space-x-6 view-wala-card">
@@ -40,6 +41,21 @@ const LastImg = () => {
         <i className="fa-solid fa-right-left text-2xl"></i>
             <h2 className="md:text-left">VIEW OUR INVENTORY <br /> <span>find Your Dream Car at a Competitive price</span></h2>
         </div>
+=======
+    <div style={{borderRight:'6px solid red'}} className="w-full max-w-[713px] bg-black text-white p-4 flex flex-col justify-center items-start rounded-lg shadow-md">
+    <div className="space-y-4">
+        <div className="flex items-center space-x-4">
+            <img width={32} className="hidden md:block" src="/assets/SVG (8).png" alt="Car" />
+            <h2 className="md:text-left">VIEW OUR INVENTORY <br /> <span>find Your Dream Car at a Competitive price</span></h2>
+        </div>
+        <div className="flex items-center space-x-4">
+            <img width={32} className="hidden md:block" src="/assets/Vector (11).png" alt="Car" />
+            <h2 className="md:text-left">VIEW OUR INVENTORY <br /> <span>find Your Dream Car at a Competitive price</span></h2>
+        </div>
+        <div className="flex items-center space-x-4">
+            <img width={32} className="hidden md:block" src="/assets/Vector (10).png" alt="Car" />
+            <h2 className="md:text-left">VIEW OUR INVENTORY <br /> <span>find Your Dream Car at a Competitive price</span></h2>
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
         </div>
     </div>
 </div>

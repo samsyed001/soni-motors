@@ -5,9 +5,15 @@ const Direction = () => {
     return (
       <>
       
+<<<<<<< HEAD
       <div className="flex flex-col lg:flex-row gap-8 p-8  h-auto">
         {/* Map Section */}
         <div className="p-6 shadow-lg rounded-md w-[60%] h-[auto] diret-wala"  style={{backgroundColor:"#F3F3F3"}}>
+=======
+      <div className="flex flex-col lg:flex-row gap-8 p-8 bg-gray-100 h-auto">
+        {/* Map Section */}
+        <div className="p-6 shadow-lg rounded-md w-[60%] h-[auto] diret-wala">
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
           
           <h1 className="text-3xl font-bold mb-6">Get Directions</h1>
           {/* Google Maps Embed */}
@@ -25,7 +31,11 @@ const Direction = () => {
         </div>
   
         {/* Contact Information Section */}
+<<<<<<< HEAD
         <div className=" p-6 shadow-lg rounded-md w-[35%] h-max  diret-wala " style={{backgroundColor:"#F3F3F3"}}> {/* Set height to max-content */}
+=======
+        <div className=" p-6 shadow-lg rounded-md w-[35%] h-max  diret-wala"> {/* Set height to max-content */}
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
         <h2 className="text-2xl font-semibold mb-6">Contact Information</h2>
         <div className="flex items-center gap-2 mb-4"> 
         <div>
@@ -53,11 +63,19 @@ const Direction = () => {
           <p>Saturday <span style={{marginLeft:'65px'}}>11:00 AM - 07:00 PM</span></p>
           <p>Sunday <span style={{marginLeft:'75px'}}>Closed</span></p>
         </div>
+<<<<<<< HEAD
         <button className="all-btn text-white p-3 w-30">Get Directions</button>
       </div>
       </div>
 
       <section className="diewct-3000">
+=======
+        <button className="bg-black text-white p-3 w-30">Get Directions</button>
+      </div>
+      </div>
+
+      <section>
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
         <Footer/>
       </section>
       </>

@@ -24,11 +24,19 @@
   }
   
   .gap-4 {
+<<<<<<< HEAD
     gap: 1rem;
   }
   
   .text-white {
     text-align: left;
+=======
+    gap: 1rem; /* Slightly tighter gap */
+  }
+  
+  .text-white {
+    text-align: left; /* Ensures left alignment */
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
   }
 
   .f-sell{
@@ -45,20 +53,29 @@
   .footerr{
    display: flex;
    justify-content: center;
+<<<<<<< HEAD
    gap: 100px;
+=======
+   gap: 2vw;
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
   }
 
   
   .f-all-text{
     display: flex;
     align-items: center;
+<<<<<<< HEAD
     gap: 100px;
+=======
+    gap: 2vw;
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
   }
 
   .footer-back-img p , .footer-back-img h4 , .footer-back-img h6{
     cursor: pointer;
   }
 
+<<<<<<< HEAD
   .social-icons i:hover{
     cursor: pointer;
     color: red;
@@ -213,26 +230,44 @@
       align-items: flex-start;
       margin-left: 2vw;
       gap: 1vw;
+=======
+  @media screen and (max-width:1356px) {
+    .footerr{
+      justify-content: start;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      margin-left: 8vw;
+      gap: 3vw;
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
     }
 
     .f-sell{
       display: flex;
+<<<<<<< HEAD
       gap: 2vw;
+=======
+      gap: 3vw;
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
       align-items: center;
     
     }
 
     .f-all-text{
       display: flex;
+<<<<<<< HEAD
       gap: 3vw;
     }
 
     .f-logo{
       margin-left: 1vw;
+=======
+      gap: 10vw;
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
     }
   }
 
   
+<<<<<<< HEAD
   @media screen and (max-width:1285px) {
     .footerr{
       justify-content: start;
@@ -315,6 +350,15 @@
   }
   @media screen and (max-width:975px) {
   
+=======
+  @media screen and (max-width:975px) {
+    .footerr{
+      justify-content: start;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      margin-left: 4vw;
+    }
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
 
     .f-sell{
       display: flex;
@@ -327,15 +371,27 @@
       display: flex;
       gap: 5vw;
     }
+<<<<<<< HEAD
 
     .f-logo{
       margin-left: 1vw;
     }
+=======
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
   }
 
     
   @media screen and (max-width:800px) {
+<<<<<<< HEAD
   
+=======
+    .footerr{
+      justify-content: start;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      margin-left: 4vw;
+    }
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
 
     .f-sell{
       display: flex;
@@ -361,7 +417,11 @@
     }
   }
   
+<<<<<<< HEAD
 
+=======
+  /* social-icons */
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
 
   .social-icons{
     display: flex;
@@ -380,7 +440,11 @@
       flex-direction: row;
     }
   }
+<<<<<<< HEAD
 
+=======
+  /* Responsive Adjustments */
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
   @media (max-width: 768px) {
     .footer-back-img {
       padding: 15px;
@@ -390,12 +454,19 @@
       text-align: left;
     }
     .heading::after {
+<<<<<<< HEAD
       margin-left: 0; 
     }
 
     .f-logo img{
       width: 160px;
     }
+=======
+      margin-left: 0; /* Keeps red line aligned with heading on all screen sizes */
+    }
+
+  
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
   }
   
    @media (max-width: 475px){

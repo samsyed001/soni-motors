@@ -172,6 +172,7 @@ display: flex;
     text-align: center;
 }
 
+<<<<<<< HEAD
 @media screen and (max-width: 3000px) {
     .order-l-img{
         display: flex;
@@ -269,6 +270,8 @@ display: flex;
 
 
 
+=======
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
 @media screen and (max-width: 1100px) {
     .text-img-2{
         position: absolute;

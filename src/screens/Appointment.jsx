@@ -6,13 +6,18 @@ function Appointment() {
   <>
     <div className="flex flex-col lg:flex-row gap-8 p-8 min-h-screen">
       {/* Form Section */}
+<<<<<<< HEAD
       <div style={{background: "#F3F3F3"}} className=" p-6 shadow-lg  w-full lg:w-3/4">
+=======
+      <div style={{background: "#F3F3F3"}} className=" p-6 shadow-lg rounded-md w-full lg:w-3/4">
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
         <h1 className="text-2xl font-semibold mb-6">Service Appointment</h1>
 
         {/* Personal Information */}
         <div className="mb-4 grid grid-cols-1 md:grid-cols-2 gap-4">
           <div>
             <label className="block font-medium">First Name <span className="text-red-500">*</span></label>
+<<<<<<< HEAD
             <input type="text" className="w-full border p-2 " placeholder="First Name" required />
           </div>
           <div>
@@ -26,6 +31,21 @@ function Appointment() {
           <div>
             <label className="block font-medium">Phone <span className="text-red-500">*</span></label>
             <input type="tel" className="w-full border p-2" placeholder="Phone" required />
+=======
+            <input type="text" className="w-full border p-2 rounded" placeholder="First Name" required />
+          </div>
+          <div>
+            <label className="block font-medium">Last Name <span className="text-red-500">*</span></label>
+            <input type="text" className="w-full border p-2 rounded" placeholder="Last Name" required />
+          </div>
+          <div>
+            <label className="block font-medium">Email <span className="text-red-500">*</span></label>
+            <input type="email" className="w-full border p-2 rounded" placeholder="Email" required />
+          </div>
+          <div>
+            <label className="block font-medium">Phone <span className="text-red-500">*</span></label>
+            <input type="tel" className="w-full border p-2 rounded" placeholder="Phone" required />
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
           </div>
         </div>
 
@@ -33,6 +53,7 @@ function Appointment() {
         <div className="mb-4 grid grid-cols-1 md:grid-cols-2 gap-4">
           <div>
             <label className="block font-medium">Make</label>
+<<<<<<< HEAD
             <input type="text" className="w-full border p-2 " placeholder="Make" />
           </div>
           <div>
@@ -42,11 +63,26 @@ function Appointment() {
           <div>
             <label className="block font-medium">VIN</label>
             <input type="text" className="w-full border p-2 " placeholder="VIN" />
+=======
+            <input type="text" className="w-full border p-2 rounded" placeholder="Make" />
+          </div>
+          <div>
+            <label className="block font-medium">Model</label>
+            <input type="text" className="w-full border p-2 rounded" placeholder="Model" />
+          </div>
+          <div>
+            <label className="block font-medium">VIN</label>
+            <input type="text" className="w-full border p-2 rounded" placeholder="VIN" />
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
           </div>
 
           <div>
           <div className="relative w-[100%] mt-6">
+<<<<<<< HEAD
               <select className="w-full p-2 border appearance-none pr-8" placeholder="Used cars in Toronto, Ontario">
+=======
+              <select className="w-full p-2 border rounded-md appearance-none pr-8" placeholder="Used cars in Toronto, Ontario">
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
               <option>Year</option>
               <option>2012</option>
               <option>2020</option>
@@ -64,6 +100,7 @@ function Appointment() {
 
         <div className="mb-4">
           <label className="block font-medium">Date <span className="text-red-500">*</span></label>
+<<<<<<< HEAD
           <input type="date" className="w-[50%] border p-2 " required />
         </div>
         <div className="mb-4">
@@ -73,11 +110,23 @@ function Appointment() {
         
         {/* Availability Button */}
         <button style={{textAlign:'center'}} className="bg-black focuss text-white p-3 text-center   lg:w-1/3 mt-4 mb-4">Check Availability</button>
+=======
+          <input type="date" className="w-[50%] border p-2 rounded" required />
+        </div>
+        <div className="mb-4">
+          <label className="block font-medium">Comments</label>
+          <textarea className="w-full h-40 border p-2 rounded" placeholder="Comments"></textarea>
+        </div>
+        
+        {/* Availability Button */}
+        <button style={{textAlign:'center'}} className="bg-black text-white p-3 text-center   lg:w-1/3 mt-4 mb-4">Check Availability</button>
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
 
         {/* Service List */}
         <div className="mt-8">
           <div className="flex justify-between">
             <h2 className="text-xl font-semibold">Service List</h2>
+<<<<<<< HEAD
             <button className="all-btn focuss text-white p-2 px-5">Add</button>
           </div>
           <div className="mb-2 mt-8">
@@ -86,12 +135,26 @@ function Appointment() {
             <img style={{width:"20px" , height:"20px" , objectFit:"contain" , cursor:"pointer"}} src="./assets/btn-site-border.png.png" alt="" />
             </div>
             <input type="text" className="w-[60vw] mt-6 border p-2 rounded" placeholder="Comment Service" />
+=======
+            <button className="bg-black text-white p-2 px-5">Add</button>
+          </div>
+          <div className="mb-2 mt-8">
+            <div className="flex items-center gap-2">
+            <input type="text" className="w-[60vw] border p-2 rounded mb-2" placeholder="Request Service" />
+            <img style={{width:"20px" , height:"20px" , objectFit:"contain" , cursor:"pointer"}} src="./assets/btn-site-border.png.png" alt="" />
+            </div>
+            <input type="text" className="w-[60vw]  border p-2 rounded" placeholder="Comment Service" />
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
           </div>
         </div>
       </div>
 
       {/* Contact Information Section */}
+<<<<<<< HEAD
       <div style={{background: "#F3F3F3"}}  className=" card-bhai p-6 shadow-lg  w-full lg:w-1/4 h-max"> {/* Set height to max-content */}
+=======
+      <div style={{background: "#F3F3F3"}}  className=" card-bhai p-6 shadow-lg rounded-md w-full lg:w-1/4 h-max"> {/* Set height to max-content */}
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
         <h2 className="text-2xl font-semibold mb-6">Contact Information</h2>
         <div className="flex items-center gap-2 mb-4"> 
         <div>
@@ -119,7 +182,11 @@ function Appointment() {
           <p className="info-text">Saturday <span style={{marginLeft:'65px'}}>11:00 AM - 07:00 PM</span></p>
           <p className="info-text">Sunday <span style={{marginLeft:'75px'}}>Closed</span></p>
         </div>
+<<<<<<< HEAD
         <button className="all-btn text-white p-3 w-30">Get Directions</button>
+=======
+        <button className="bg-black text-white p-3 w-30">Get Directions</button>
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
       </div>            
     </div>
 

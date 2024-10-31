@@ -16,12 +16,21 @@ const ApplyForCredit = () => {
           <div>
             <h3 className="font-semibold text-lg mb-2">Personal Information</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4 input-sapce">
+<<<<<<< HEAD
               <input type="text" placeholder="First Name" className="p-2 border "/>
               <input type="text" placeholder="Last Name" className="p-2 border "/>
               <input type="email" placeholder="Email" className="p-2 border "/>
               <input type="tel" placeholder="Phone" className="p-2 border "/>
               <div className="relative w-[100%]">
               <select className="w-full p-2 border  appearance-none pr-8" placeholder="Used cars in Toronto, Ontario">
+=======
+              <input type="text" placeholder="First Name" className="p-2 border rounded"/>
+              <input type="text" placeholder="Last Name" className="p-2 border rounded"/>
+              <input type="email" placeholder="Email" className="p-2 border rounded"/>
+              <input type="tel" placeholder="Phone" className="p-2 border rounded"/>
+              <div className="relative w-[100%]">
+              <select className="w-full p-2 border rounded-md appearance-none pr-8" placeholder="Used cars in Toronto, Ontario">
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
               <option>Salutation</option>
               <option>MR</option>
               <option>Miss</option>
@@ -32,7 +41,11 @@ const ApplyForCredit = () => {
               </div>
 
               <div className="relative w-[100%]">
+<<<<<<< HEAD
               <select className="w-full p-2 border  appearance-none pr-8" placeholder="Used cars in Toronto, Ontario">
+=======
+              <select className="w-full p-2 border rounded-md appearance-none pr-8" placeholder="Used cars in Toronto, Ontario">
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
               <option>Marital Status</option>
               <option>Maried</option>
               <option>Un maried</option>
@@ -41,7 +54,11 @@ const ApplyForCredit = () => {
                   <span style={{marginBottom:"4px" , fontSize:"22px"}}>| </span><i className="fa-solid fa-angle-down"></i>
                 </span>
               </div>
+<<<<<<< HEAD
               <input type="text" placeholder="Birth Date" className="p-2 border  col-span-2 w-[50%]"/>
+=======
+              <input type="text" placeholder="Birth Date" className="p-2 border rounded col-span-2 w-[50%]"/>
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
             </div>
           </div>
 
@@ -51,7 +68,11 @@ const ApplyForCredit = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
 
             <div className="relative w-[100%]">
+<<<<<<< HEAD
               <select className="w-full p-2 border  appearance-none pr-8" placeholder="Used cars in Toronto, Ontario">
+=======
+              <select className="w-full p-2 border rounded-md appearance-none pr-8" placeholder="Used cars in Toronto, Ontario">
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
               <option>Bankruptcy</option>
               <option>UBL</option>
               <option>HBL</option>
@@ -73,7 +94,11 @@ const ApplyForCredit = () => {
               </div>
 
                <div className="relative w-[100%]">
+<<<<<<< HEAD
               <select className="w-full p-2 border  appearance-none pr-8" placeholder="Used cars in Toronto, Ontario">
+=======
+              <select className="w-full p-2 border rounded-md appearance-none pr-8" placeholder="Used cars in Toronto, Ontario">
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
               <option>Is Co-signer Available?</option>
               <option>Is signer Available?</option>
               <option>Is Co-signer Not Available?</option>
@@ -84,7 +109,11 @@ const ApplyForCredit = () => {
               </div>
 
                <div className="relative w-[100%]">
+<<<<<<< HEAD
               <select className="w-full p-2 border  appearance-none pr-8" placeholder="Used cars in Toronto, Ontario">
+=======
+              <select className="w-full p-2 border rounded-md appearance-none pr-8" placeholder="Used cars in Toronto, Ontario">
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
               <option>Rate Your Credit</option>
               <option> Credit</option>
               <option>Rate Your Credit</option>
@@ -100,11 +129,18 @@ const ApplyForCredit = () => {
           <div>
             <h3 className="font-semibold text-lg mb-2">Choose Your Vehicle</h3>
             <input type="text" placeholder="Search Year Make Model" className="p-2 w-full border rounded mb-4"/>
+<<<<<<< HEAD
             <div className="apply-kara flex gap-4 mb-4 ">
         
               <button className=" left-btn all-btn text-white   w-full">Advance Search</button>
               <button className=" left-btn all-btn text-white   w-full">Appraise My Trade</button>
               <button className="left-btn all-btn text-white  w-full">Car Finder</button>
+=======
+            <div className="apply-kara flex space-x-2 mb-4 ">
+              <button className="ye-ak left-btn bg-black text-white  w-full">Advance Search</button>
+              <button className=" left-btn bg-black text-white   w-full">Appraise My Trade</button>
+              <button className="left-btn bg-black text-white  w-full">Car Finder</button>
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
             </div>
           </div>
 
@@ -117,7 +153,11 @@ const ApplyForCredit = () => {
           </p>
 
           {/* Submit Button */}
+<<<<<<< HEAD
           <button className="all-btn text-white py-2 px-4 w-25  ">Get Approved</button>
+=======
+          <button className="bg-black text-white py-2 px-4 w-25 rounded ">Get Approved</button>
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
         </div>
 
         {/* Sidebar Help */}
@@ -128,7 +168,11 @@ const ApplyForCredit = () => {
           <p className="text-gray-600 mb-4 ">
             Need help filling out your application? We would be happy to help you.
           </p>
+<<<<<<< HEAD
           <button className="all-btn text-white py-2 px-4 all-btn">Contact Us</button>
+=======
+          <button className="bg-black text-white py-2 px-4 rounded">Contact Us</button>
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
         </div>
     </div>
 

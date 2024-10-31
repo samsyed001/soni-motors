@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 .form1-back img {
@@ -5,6 +6,23 @@
     max-width: none;                
     height: 40vh; 
     object-fit: cover;
+=======
+/* .main1 {
+    height: 30vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+} */
+
+.form1-back img {
+    width: 100%; /* Makes the image responsive to the container */
+    max-width: none;                 /* Ensures the image doesn't shrink */
+    height: 40vh; /* Maintains the aspect ratio */
+    object-fit: cover; /* Ensures it covers the container area without shrinking */
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
   }
 
 .main2 {
@@ -37,6 +55,7 @@
     font-size: 14px;
 }
 
+<<<<<<< HEAD
 @media (max-width: 3000px){
     .car1{
         width: 96%;
@@ -52,6 +71,10 @@
     }
 }
 
+=======
+
+
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
 
 
 @media (max-width: 1280px) {
@@ -93,5 +116,8 @@
         font-size: 1.5rem; 
     }
 }
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4

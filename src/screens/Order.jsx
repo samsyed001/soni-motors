@@ -12,7 +12,11 @@ const Order = () => {
           <button className="font-semibold text-gray-700 hover:text-red-500">Vehicle Information</button>
           <button className="font-semibold text-gray-700 hover:text-red-500">Part List</button>
         </div>
+<<<<<<< HEAD
         <button  className="black-hover search-part text-white  rounded-md">Search Parts</button>
+=======
+        <button style={{backgroundColor:"rgba(244, 0, 0, 1)"}} className="search-part text-white  rounded-md">Search Parts</button>
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
       </div>
 
       <div>

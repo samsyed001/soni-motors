@@ -1,5 +1,9 @@
 
 const CarGallery = () => {
+<<<<<<< HEAD
+=======
+  // Replace these URLs with your actual image URLs
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
   const images = [
     "./assets/gallery5.png",
     "./assets/gallery6.png",

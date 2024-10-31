@@ -32,12 +32,20 @@ const Finance = () => {
             and we will do everything we can to get you approved.
           </p>
           <br />
+<<<<<<< HEAD
           <button className="calculate-but all-btn">Calculate Now <i className="fa-solid fa-angle-right"></i></button>
+=======
+          <button className="calculate-but">Calculate Now <i class="fa-solid fa-angle-right"></i></button>
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
         </div>
       </div>
       <div className="aside2">
         <div className="text" style={{ padding: "10px 0px", width: "30rem" }}>
+<<<<<<< HEAD
           <button className="applyonline all-btn">Apply online Today</button>
+=======
+          <button className="applyonline">Apply online Today</button>
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
         </div>
       </div>
     </div>

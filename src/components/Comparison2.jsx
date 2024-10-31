@@ -4,12 +4,21 @@ const Comparison2 = () => {
     return (
       <>
             <div className="flex flex-col items-center justify-center py-12">
+<<<<<<< HEAD
         <h2 className="text-2xl compar-text md:text-3xl font-bold mb-12 sm:lg">Why sell your car online to <span style={{color:'#F40000'}}>Soni Auto Market ?</span></h2>
   
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl w-full comparison-gp" style={{alignItems:'center'}}>
           {/* Dealer Ship */}
           <div style={{height:"300px"}} className="bg-white shadow-lg text-center transform transition-transform hover:scale-105 card-pr-hover">
             <div style={{cursor:"pointer"}} className="bg-gray-200 hover-bg-red  text-gray-700 font-semibold text-lg py-2">
+=======
+        <h2 className="text-2xl md:text-3xl font-bold mb-12 sm:xl">Why sell your car online to <span style={{color:'red'}}>Soni Auto Market ?</span></h2>
+  
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl w-full">
+          {/* Dealer Ship */}
+          <div className="bg-white shadow-lg text-center transform transition-transform hover:scale-105">
+            <div style={{cursor:"pointer"}} className="bg-gray-200 hover:bg-red-500 hover:text-white  text-gray-700 font-semibold text-lg py-2">
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
               Dealer Ship
             </div>
             <ul style={{cursor:"pointer"}} className="mt-4 space-y-3 text-gray-600 text-start py-3 px-3">
@@ -37,8 +46,13 @@ const Comparison2 = () => {
           </div>
   
           {/* Soni Auto Market */}
+<<<<<<< HEAD
           <div style={{height:"350px"}} className="bg-white shadow-lg text-center transform transition-transform hover:scale-105 card-pr-hover">
             <div style={{cursor:"pointer"}} className="bg-gray-200 text-gray-700 hover-bg-red    font-semibold text-lg py-2 ">
+=======
+          <div className="bg-white shadow-lg text-center transform transition-transform hover:scale-105">
+            <div style={{cursor:"pointer"}} className="bg-gray-200 text-gray-700 hover:bg-red-500 hover:text-white  font-semibold text-lg py-2 ">
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
               Soni Auto Market
             </div>
             <ul style={{cursor:"pointer"}} className="mt-4 space-y-3 text-gray-600 py-3 px-3">
@@ -70,8 +84,13 @@ const Comparison2 = () => {
           </div>
   
           {/* Private Seller */}
+<<<<<<< HEAD
           <div style={{height:"300px"}} className="bg-white shadow-lg text-center transform transition-transform hover:scale-105 card-pr-hover">
           <div style={{cursor:"pointer"}} className="bg-gray-200 text-gray-700 hover-bg-red   font-semibold text-lg py-2 ">
+=======
+          <div className="bg-white shadow-lg text-center transform transition-transform hover:scale-105">
+          <div style={{cursor:"pointer"}} className="bg-gray-200 text-gray-700 hover:bg-red-500 hover:text-white  font-semibold text-lg py-2 ">
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
               Private Seller
             </div>
             <ul style={{cursor:"pointer"}} className="mt-4 space-y-3 text-gray-600 py-3 px-3">

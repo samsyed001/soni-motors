@@ -1,9 +1,16 @@
 
 .form1-back img {
+<<<<<<< HEAD
     width: 100%;
     max-width: none;                 
     height: 40vh; 
     object-fit: cover; 
+=======
+    width: 100%; /* Makes the image responsive to the container */
+    max-width: none;                 /* Ensures the image doesn't shrink */
+    height: 40vh; /* Maintains the aspect ratio */
+    object-fit: cover; /* Ensures it covers the container area without shrinking */
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
   }
 
   
@@ -22,6 +29,7 @@
     padding: 8px 2vw;
 }
 
+<<<<<<< HEAD
 @media(max-width:3000px) {
 .last-contact-us{
     margin-top: -22vw;
@@ -163,6 +171,8 @@
 
 
 
+=======
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
 @media(max-width:1410px) {
     .card-btn{
         padding: 6px 1.2vw;
@@ -173,6 +183,7 @@
     }
 }
 
+<<<<<<< HEAD
 
  
 
@@ -193,6 +204,15 @@
 }
 
 
+=======
+@media(max-width:1450px) {
+    .img-set-12{
+        width: 100%;
+        justify-content: center;
+    }
+}
+ 
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
 
 @media screen and (max-width:1190px) {
     .txt-size{
@@ -228,6 +248,7 @@
     }
 
 }
+<<<<<<< HEAD
 @media screen and (max-width:1060px) {
     .last-contact-us{
         margin-top: 1vw;
@@ -239,6 +260,17 @@
         margin-right: 0vw;
         margin-top:  2vw;
     
+=======
+@media screen and (max-width:1030px) {
+    .contact-info{
+        width: 320px;
+        
+    }
+
+    .contact-uss{
+        width: 600px;
+        margin-left: 5vw;
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
     }
 
     .card-btn{
@@ -266,6 +298,7 @@
 @media screen and (max-width:1026px) {
 
 
+<<<<<<< HEAD
     .last-contact-us{
         margin-top: 1vw;
         width: 70vw;
@@ -285,6 +318,16 @@
         display: flex;
         width:  70vw;
         margin-left: 50vw;
+=======
+    .contact-uss{
+        width: 600px;
+        margin-left: -1vw;
+    }
+
+    .contact-info{
+        width: 320px;
+        margin-right: -120px;
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
     }
 }
 
@@ -298,6 +341,23 @@
     padding: 8px 12px;
 }
 
+<<<<<<< HEAD
+=======
+.contact-info{
+    display: none;
+}
+
+.contact-infoo{
+    display: flex;
+    width:  90vw;
+    margin-left: 50vw;
+}
+
+.contact-uss{
+    width: 90vw;
+    margin-left: 10.5vw;
+}
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
 }
 @media screen and (max-width:840px) {
 
@@ -320,6 +380,7 @@
     }
 }
 
+<<<<<<< HEAD
 
 @media screen and (max-width:800px) {
     
@@ -327,6 +388,8 @@
     width: 100%;
     }
     }
+=======
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
        
 
 @media (max-width:768px){
@@ -363,6 +426,7 @@
     .invent-text span{
         font-size: 3vw;
     }
+<<<<<<< HEAD
 
 
     .contact-infoo{
@@ -403,6 +467,21 @@
 
 
 
+=======
+}
+
+@media (max-width:420px){
+    .card-btn{
+        padding: 6px 6vw;
+        font-size: 15px;
+    }
+    
+    .c-btn-2{
+        padding: 8px 6vw;
+    }
+}
+
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
 @media (max-width:460px){
     .home-sec{
         width: 100%;
@@ -414,6 +493,7 @@
     }
 }
 
+<<<<<<< HEAD
 @media (max-width:420px){
     .contact-infoo{
         display: flex;
@@ -433,6 +513,8 @@
 }
 
 
+=======
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
 @media (max-width:380px){
     .imges{
         margin-top: -60px;
@@ -445,3 +527,13 @@
         margin-top: -140px;
     }
 }
+<<<<<<< HEAD
+=======
+
+@media screen and (max-width:800px) {
+    
+.apply{
+width: 100%;
+}
+}
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4

@@ -39,14 +39,24 @@ const ContactUs = () => {
             <p>Saturday: 11:00 AM - 07:00 PM</p>
             <p>Sunday: Closed</p>
           </div>
+<<<<<<< HEAD
           <button type="button" className="all-btn text-white py-2 px-4  w-fit mt-4">
+=======
+          <button type="button" className="bg-black text-white py-2 px-4 rounded-md hover:bg-gray-800 w-fit mt-4">
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
             Get Directions
           </button>
         </div>
 
+<<<<<<< HEAD
       <div className="contact-uss flex flex-col lg:flex-row justify-center w-full max-w-7xl p-4" >
         {/* Contact Form */}
         <div style={{background: "#F3F3F3"}}  className=" contact-uss flex flex-col  p-6    space-y-4 last-contact-us">
+=======
+      <div className="contact-uss flex flex-col lg:flex-row justify-center w-full max-w-7xl p-4" style={{marginRight:"35vw"}}>
+        {/* Contact Form */}
+        <div style={{background: "#F3F3F3"}}  className=" contact-uss flex flex-col  p-6   lg:w-2/3 space-y-4">
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
           <h2 className="text-2xl font-semibold">Contact Us</h2>
           <form className="space-y-4 ">
             <div className="flex flex-col ">
@@ -73,7 +83,11 @@ const ContactUs = () => {
               <label className="text-sm font-medium">Message</label>
               <textarea placeholder="Message" className="border border-gray-300  p-1 h-24 w-[90%]"></textarea>
             </div>
+<<<<<<< HEAD
             <button style={{display:"flex" , justifyContent:"center" , alignItems:"center"}} type="submit" className="all-btn text-white py-2 w-40 p-5 ">
+=======
+            <button style={{display:"flex" , justifyContent:"center" , alignItems:"center"}} type="submit" className="bg-black text-white py-2 w-40 p-5  hover:bg-gray-800">
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
               Send
             </button>
           </form>
@@ -81,7 +95,11 @@ const ContactUs = () => {
 
         {/* Contact Information - Fixed Position on the Right */}
         <div
+<<<<<<< HEAD
           className="contact-info flex flex-col bg-white p-6    lg:w-1/3 space-y-4 absolute  right-10 top-[-10vw]  last-contact-info" // Adjusted right and top
+=======
+          className="contact-info flex flex-col bg-white p-6    lg:w-1/3 space-y-4 absolute  right-10 top-[-10vw] " // Adjusted right and top
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
           style={{background: "#F3F3F3"}} 
         >
           <h3 className="text-lg font-bold">Contact Information</h3>
@@ -114,7 +132,11 @@ const ContactUs = () => {
             </div>
 
           </div>
+<<<<<<< HEAD
           <button type="button" className="all-btn text-white py-2 px-4  w-fit mt-4">
+=======
+          <button type="button" className="bg-black text-white py-2 px-4 rounded-md hover:bg-gray-800 w-fit mt-4">
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
             Get Directions
           </button>
         </div>
@@ -123,7 +145,11 @@ const ContactUs = () => {
 
    </div>
     
+<<<<<<< HEAD
     <section className="footer-contact-3000">
+=======
+    <section>
+>>>>>>> 11a30d3e84a801f3a0d9db239b0dccc8500baaf4
       <Footer/>
     </section>
   </>
