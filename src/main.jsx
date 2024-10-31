@@ -8,7 +8,7 @@ import Appointment from './screens/Appointment.jsx';
 import DealerShip from './screens/DealerShip.jsx';
 import Finance from './screens/Finance.jsx';
 import ImageGallery from './screens/ImageGallery.jsx';
-import MyTrade from './screens/MyTrade.jsx';
+// import MyTrade from './screens/MyTrade.jsx';
 import Order from './screens/Order.jsx';
 import VideoGallery from './screens/VideoGallery.jsx';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
@@ -16,6 +16,7 @@ import Home from './screens/Home.jsx';
 import ContactUs from './screens/ContactUs.jsx';
 import Direction from './screens/Direction.jsx';
 import JeepWrangular from './screens/JeepWrangular.jsx';
+import NewTrade from './screens/NewTrade.jsx';
 
 
 
@@ -62,7 +63,7 @@ const router = createBrowserRouter([
       },
       {
         path: 'MyTrade',
-        element: <MyTrade />,
+        element: <NewTrade />,
       },
       {
         path: 'Order',

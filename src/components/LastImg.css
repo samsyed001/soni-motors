@@ -19,3 +19,13 @@
     padding: 0px 5px;
     transition: .2s ease-in-out;
 }
+.view-wala-card:hover:after {
+    content: '';
+    position: relative;
+    right: -9px;
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-right: 25px solid #f40000;
+    border-bottom: 15px solid transparent;
+}

@@ -1,9 +1,27 @@
 .navbar-background-img{
+<<<<<<< HEAD
   background: linear-gradient(180deg, #26262670 35%, #26262670 66%, #26262670 88%, transparent);
   flex-wrap: wrap;
   position: absolute;
   width: 100%;
+=======
+  /* background: linear-gradient(180deg, #26262670 35%, #26262670 66%, #26262670 88%, transparent); */
+  background: linear-gradient(to bottom, 
+  #111111 15%,      
+  #111111 50%,     
+  #111111 80%,     
+  #111111 100%  ,
+  transparent   
+  );
+
+>>>>>>> 3ffc9d2 (Updated with new pages and latest changes)
 }
+
+ .home-pr-color{
+  background-color: transparent;
+  font-size: 20px;
+ }
+
 
 
 @media (min-width: 1070px) {
@@ -59,3 +77,8 @@
   }
 
   
+  .navbar-background-img.fixed-navbar {
+    background: linear-gradient(180deg, #262626 35%, rgba(59, 59, 59, .8239670868) 66%, rgba(33, 33, 33, .3645833333) 88%, transparent);
+    position: absolute;
+    width: 100%;
+}

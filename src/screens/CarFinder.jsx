@@ -4,7 +4,7 @@ import "./CarFinder.css"
 const CarFinder = () => {
   return (
     <>
-    <div className="bg-gray-100 min-h-screen p-6" >
+    <div className=" min-h-screen p-6" >
         <div className="flex flex-col lg:flex-row justify-center space-y-6 lg:space-y-0 lg:space-x-6" >
           {/* Form Section */}
           <div className="flex flex-col space-y-6 lg:w-3/5  p-6 border border-gray-300 rounded-lg shadow-md" style={{background: "#F3F3F3"}} >
@@ -201,7 +201,7 @@ const CarFinder = () => {
         </div>
       </div>
 
-      <section>
+      <section className="car-finder-3000">
         <Footer/>
       </section>
     </>

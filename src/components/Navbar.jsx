@@ -2,12 +2,14 @@ import { useState, useEffect } from 'react';
 import '../components/Navbar.css';
 import SimpleDropdown from './SimpleDropdown';
 import { Link } from 'react-router-dom';
+import { useLocation } from 'react-router-dom'; // Import useLocation
 
 
 const Navbar = () => {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 1093);
   const [openDropdown, setOpenDropdown] = useState(null); 
+  const location = useLocation(); // Get the current route
 
   const dropdownOptions1 = ['All Inventory', 'Appraise My Trade', 'Car Finder Page'];
   const dropdownLinks1 = ['/Inventory', '/MyTrade', '/CarFinder'];
@@ -50,7 +52,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className='navbar-background-img items-center px-8 flex justify-between '>
+      <div className={`navbar-background-img items-center px-8 flex justify-between ${location.pathname === '/' ? 'fixed-navbar' : ''}`}>
         <div>
           <img className='main-logo-img' width={180} height={98} src="./assets/soni_auto_1 1.png" alt="Logo" />
         </div>
@@ -78,7 +80,7 @@ const Navbar = () => {
               <div className="flex items-center gap-3">
                 <span className=' text-lg'>|</span>
                 <img style={{cursor:"pointer"}} width={20} className="icon" src="./assets/SVG.png" alt="Main Icon" />
-                <span style={{cursor:"pointer"}} className="font-semibold  text-lg  navbar-wala-bg">(123) 456-7890</span>
+                <span style={{cursor:"pointer" , backgroundColor:"transparent"}} className="font-semibold  text-lg  navbar-wala-bg">(123) 456-7890</span>
                 <img style={{cursor:"pointer"}} width={20} className="icon" src="./assets/Link.png" alt="Link Icon" />
                 <img style={{cursor:"pointer"}} width={20} className="icon" src="./assets/SVG (1).png" alt="SVG Icon" />
               </div>
@@ -86,7 +88,7 @@ const Navbar = () => {
             <div className="flex items-center justify-between">
               {/* Left Section for Home */}
               <div className="flex-shrink-0 text-center mr-8">
-                <Link className=" font-wala-nav hoverr  navbar-wala-bg" to="/">Home</Link>
+                <Link className=" font-wala-nav hoverr  navbar-wala-bg home-pr-color" to="/">Home</Link>
               </div>        
 
               {/* Right Section for Dropdowns */}
@@ -165,7 +167,7 @@ const Navbar = () => {
                 <input
                   type="text"
                   placeholder="Search..."
-                  className="pl-10 pr-10 py-1 rounded-md focus:outline-none focus:ring w-full"
+                  className="pl-10 pr-10 py-1 text-black rounded-md focus:outline-none focus:ring w-full"
                 />
                 <span className="absolute right-3 top-3">
                   <img src="./assets/Arrow 1.png" alt="Search Arrow" />

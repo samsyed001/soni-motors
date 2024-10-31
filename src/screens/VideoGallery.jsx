@@ -1,5 +1,7 @@
 import InstagramCard from "../components/Cards";    
-import Footer from "../components/Footer";      
+import Footer from "../components/Footer";  
+import AutoPlaySlider from "../components/SliderCard";
+import "./Video.css"    
 
 
 const VideoGallery = () => {
@@ -31,26 +33,17 @@ const VideoGallery = () => {
   
   return (
     <>
-               <section className="px-5 py-20">
+               <section className="px-5 py-20 ">
         <div className="text-center mb-6">
           <h2 className="text-2xl font-bold">
             SONI AUTO MARKETS ON <span className="text-red-500">INSTAGRAM</span>
           </h2>
           <p className="text-gray-600">We are committed to making you a long-lasting customer and friend</p>
         </div>
-        <div className="grid gap-2 md:grid-cols-2 lg:grid-cols-4">
-          {posts.map((post, index) => (
-            <InstagramCard
-              key={index}
-              imgSrc={post.imgSrc}
-              likes={post.likes}
-              description={post.description}
-            />
-          ))}
-        </div>
+        <AutoPlaySlider/>
       </section>
 
-        <section>
+        <section  className="video-foter">
           <Footer/>
         </section>
 

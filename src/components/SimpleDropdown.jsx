@@ -21,7 +21,7 @@ const SimpleDropdown = ({ title, options, links, style }) => {
     >
       <div>
         <button
-          className="font-wala-nav inline-flex justify-between w-full shadow-sm px-4 h-6 bg-black text-md font-medium text-white hoverr nav-1100"
+          className="font-wala-nav inline-flex justify-between w-full shadow-sm px-4 h-10 text-md font-medium text-white hoverr nav-1100"
           aria-haspopup="true"
           aria-expanded={isOpen ? 'true' : 'false'}
         >
@@ -51,7 +51,7 @@ const SimpleDropdown = ({ title, options, links, style }) => {
                 key={index}
                 to={links[index]}
                 onClick={handleOptionClick}
-                className="block px-4 py-2 text-sm text-white w-full text-left hoverr"
+                className="block px-4 py-2 text-lg text-white w-full text-left hoverr"
                 role="menuitem"
               >
                 {option}

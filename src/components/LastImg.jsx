@@ -20,20 +20,26 @@ const LastImg = () => {
     </div>
 
     {/* Right Section */}
-    <div style={{borderRight:'6px solid red'}} className="w-full max-w-[713px] bg-black  p-4 flex flex-col justify-center items-start  shadow-md">
-    <div className="space-y-4">
-        <div style={{lineHeight:"25px"}} className="flex items-center space-x-6 view-wala-card">
+    <div style={{borderRight:'6px solid red'}} className="w-full max-w-[713px] bg-black  flex flex-col justify-center items-start  shadow-md">
+    <div className="space-y-4" style={{width:'100%'}}>
+        <div style={{lineHeight:"25px", justifyContent:'space-between'}} className="flex items-center space-x-6 view-wala-card">
+            <div className="flex" style={{gap:'10px', alignItems:'center', padding:'12px 22px'}}>
             <i className="fa-solid fa-car text-2xl"></i>
 
-            <h2 className="md:text-left">VIEW OUR INVENTORY <br /> <span>find Your Dream Car at a Competitive price</span></h2>
+<h2 className="md:text-left">VIEW OUR INVENTORY <br /> <span>find Your Dream Car at a Competitive price</span></h2>
+            </div>
         </div>
-        <div style={{lineHeight:"25px"}} className="flex items-center space-x-8 view-wala-card">
+        <div style={{lineHeight:"25px", justifyContent:'space-between'}} className="flex items-center space-x-6 view-wala-card">
+            <div className="flex" style={{gap:'10px', alignItems:'center', padding:'12px 22px'}}>
         <i className="fa-solid fa-dollar-sign text-2xl"></i>
             <h2 className="md:text-left">VIEW OUR INVENTORY <br /> <span>find Your Dream Car at a Competitive price</span></h2>
         </div>
-        <div style={{lineHeight:"25px"}} className="flex items-center space-x-6 view-wala-card">
+        </div>
+        <div style={{lineHeight:"25px", justifyContent:'space-between'}} className="flex items-center space-x-6 view-wala-card">
+            <div className="flex" style={{gap:'10px', alignItems:'center', padding:'12px 22px'}}>
         <i className="fa-solid fa-right-left text-2xl"></i>
             <h2 className="md:text-left">VIEW OUR INVENTORY <br /> <span>find Your Dream Car at a Competitive price</span></h2>
+        </div>
         </div>
     </div>
 </div>

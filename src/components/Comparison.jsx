@@ -9,9 +9,9 @@ const Comparison = () => {
         Every car we sell has undergone rigorous inspection to ensure top-tier reliability.
       </p>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl w-full comparison-gp">
+      <div  className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl w-full comparison-gp " style={{alignItems:'center'}}>
         {/* Dealer Ship */}
-        <div className="bg-white shadow-lg text-center  transform transition-transform hover:scale-105 card-pr-hover">
+        <div style={{height:"300px"}} className="bg-white shadow-lg text-center  transform transition-transform hover:scale-105 card-pr-hover">
           <div style={{cursor:"pointer"}} className="bg-gray-200 hover-bg-red  text-gray-700 font-semibold text-lg py-2">
             Dealer Ship
           </div>
@@ -36,7 +36,7 @@ const Comparison = () => {
         </div>
 
         {/* Soni Auto Market */}
-        <div className="bg-white shadow-lg text-center transform transition-transform hover:scale-105 card-pr-hover">
+        <div style={{height:"350px"}} className="bg-white  shadow-lg text-center transform transition-transform hover:scale-105 card-pr-hover">
           <div style={{cursor:"pointer"}} className="bg-gray-200 text-gray-700 hover-bg-red font-semibold text-lg py-2 ">
             Soni Auto Market
           </div>
@@ -73,7 +73,7 @@ const Comparison = () => {
         </div>
 
         {/* Private Seller */}
-        <div className="bg-white  shadow-lg  text-center transform transition-transform hover:scale-105 card-pr-hover">
+        <div style={{height:"300px"}} className="bg-white  shadow-lg  text-center transform transition-transform hover:scale-105 card-pr-hover">
           <div style={{cursor:"pointer"}} className="bg-gray-200 hover-bg-red  text-gray-700 font-semibold text-lg py-2">
             Private Seller
           </div>

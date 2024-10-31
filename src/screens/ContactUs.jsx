@@ -44,9 +44,9 @@ const ContactUs = () => {
           </button>
         </div>
 
-      <div className="contact-uss flex flex-col lg:flex-row justify-center w-full max-w-7xl p-4" style={{marginRight:"35vw"}}>
+      <div className="contact-uss flex flex-col lg:flex-row justify-center w-full max-w-7xl p-4" >
         {/* Contact Form */}
-        <div style={{background: "#F3F3F3"}}  className=" contact-uss flex flex-col  p-6   lg:w-2/3 space-y-4">
+        <div style={{background: "#F3F3F3"}}  className=" contact-uss flex flex-col  p-6    space-y-4 last-contact-us">
           <h2 className="text-2xl font-semibold">Contact Us</h2>
           <form className="space-y-4 ">
             <div className="flex flex-col ">
@@ -81,7 +81,7 @@ const ContactUs = () => {
 
         {/* Contact Information - Fixed Position on the Right */}
         <div
-          className="contact-info flex flex-col bg-white p-6    lg:w-1/3 space-y-4 absolute  right-10 top-[-10vw] " // Adjusted right and top
+          className="contact-info flex flex-col bg-white p-6    lg:w-1/3 space-y-4 absolute  right-10 top-[-10vw]  last-contact-info" // Adjusted right and top
           style={{background: "#F3F3F3"}} 
         >
           <h3 className="text-lg font-bold">Contact Information</h3>
@@ -123,7 +123,7 @@ const ContactUs = () => {
 
    </div>
     
-    <section>
+    <section className="footer-contact-3000">
       <Footer/>
     </section>
   </>

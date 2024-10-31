@@ -14,10 +14,7 @@ button{
     cursor: pointer;
 }
 
-input{
-    outline: none;
-    cursor: pointer;
-}
+
 
 .credit-div{
     display: flex;
@@ -39,7 +36,12 @@ input{
   
 
    .icons-card i{
-    font-size: 24px;
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-top: -10px;
+   }
+   .icons-card svg{
+    font-size: 20px;
     margin-bottom: 5px;
     margin-top: -10px;
    }
@@ -55,8 +57,11 @@ input{
    }
 
    .font-wala-nav{
-    font-size: 17px;
+    font-size:20px;
     font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
    }
 
    .toping-hover{
@@ -112,6 +117,7 @@ select:hover {
     border-bottom: 2px solid #F40000;
 }
 
+
 select:focus {
     border-bottom: none;
 }
@@ -143,7 +149,64 @@ textarea:focus {
     padding: 3px 15px;
    }
 
+  
+
+   .card-ki-width{
+    width: 330px;
+   }
+
+
+
+
+@media screen and (max-width:1450px) {
+    .font-wala-nav{
+        font-size:20px;
+        font-weight: 600;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5px;
+       }
+
+
+       
+   .card-ki-width{
+    width: 310px;
+    height: 440px;
+   }
+}
+
+
+
+
+
+
+@media screen and (max-width:1280px) {
+    .card-ki-width{
+        width: 280px;
+       }
+    
+}
+
+
+@media screen and (max-width:1200px) {
+    .font-wala-nav{
+        font-size:18px;
+        font-weight: 600;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       }
+
+       .card-ki-width{
+        width: 260px;
+       }
+    }
 @media screen and (max-width:1100px) {
+
+    
+
+
    .left-side{
     
     width: 850px;
@@ -197,11 +260,32 @@ textarea:focus {
     margin-bottom: -5px;
    }
 
+
+   .font-wala-nav{
+    font-size:18px;
+    font-weight: 600;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+   }
+
    
 }
 
 
 
+@media screen and (max-width:1025px) {
+    .card-ki-width{
+        width: 300px;
+       }
+}
+
+
+@media screen and (max-width:900px) {
+    .card-ki-width{
+        width: 250px;
+       }
+}
 @media screen and (max-width:812px) {
     .h2-span span{
         font-size: 15px;
@@ -223,6 +307,27 @@ textarea:focus {
         margin-left: 1.9vw;
         font-size: 18px;
         font-weight: 700;
+       }
+}
+
+
+@media screen and (max-width:760px) {
+    .card-ki-width{
+        width: 220px;
+       }
+}
+
+
+@media screen and (max-width:700px) {
+    .card-ki-width{
+        width: 210px;
+       }
+}
+
+
+@media screen and (max-width:670px) {
+    .card-ki-width{
+        width: 190px;
        }
 }
 
@@ -299,6 +404,12 @@ textarea:focus {
     font-weight: 700;
    } 
 
+
+    .card-ki-width{
+        width: 240px;
+       }
+
+
 }
 
 
@@ -338,6 +449,10 @@ textarea:focus {
     .div-credit{
         width: 100%;
        }
+
+       .card-ki-width{
+        width: 220px;
+       }
 }
 
 @media screen and (max-width:515px) {
@@ -364,6 +479,11 @@ textarea:focus {
 
 }
 
+@media screen and (max-width:480px) {
+    .card-ki-width{
+        width: 400px;
+       }
+}
 @media screen and (max-width:440px) {
     .left-side p{
         width: 200px;
@@ -388,6 +508,10 @@ textarea:focus {
 
     }
 
+    .card-ki-width{
+        width: 350px;
+       }
+
    
 }
 
@@ -406,7 +530,7 @@ textarea:focus {
     .side-bar{
         width: 100%;
     }
-
+    
 }
 
 
@@ -417,4 +541,16 @@ textarea:focus {
 }
 
 
-  
+
+@media screen and (max-width:3000px) {
+    .card-ki-height{
+        height: auto;
+    }
+
+    .credit-div{
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
+}
+

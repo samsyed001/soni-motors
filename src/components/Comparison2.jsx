@@ -4,11 +4,11 @@ const Comparison2 = () => {
     return (
       <>
             <div className="flex flex-col items-center justify-center py-12">
-        <h2 className="text-2xl compar-text md:text-3xl font-bold mb-12 sm:xl">Why sell your car online to <span style={{color:'#F40000'}}>Soni Auto Market ?</span></h2>
+        <h2 className="text-2xl compar-text md:text-3xl font-bold mb-12 sm:lg">Why sell your car online to <span style={{color:'#F40000'}}>Soni Auto Market ?</span></h2>
   
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl w-full comparison-gp">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl w-full comparison-gp" style={{alignItems:'center'}}>
           {/* Dealer Ship */}
-          <div className="bg-white shadow-lg text-center transform transition-transform hover:scale-105 card-pr-hover">
+          <div style={{height:"300px"}} className="bg-white shadow-lg text-center transform transition-transform hover:scale-105 card-pr-hover">
             <div style={{cursor:"pointer"}} className="bg-gray-200 hover-bg-red  text-gray-700 font-semibold text-lg py-2">
               Dealer Ship
             </div>
@@ -37,7 +37,7 @@ const Comparison2 = () => {
           </div>
   
           {/* Soni Auto Market */}
-          <div className="bg-white shadow-lg text-center transform transition-transform hover:scale-105 card-pr-hover">
+          <div style={{height:"350px"}} className="bg-white shadow-lg text-center transform transition-transform hover:scale-105 card-pr-hover">
             <div style={{cursor:"pointer"}} className="bg-gray-200 text-gray-700 hover-bg-red    font-semibold text-lg py-2 ">
               Soni Auto Market
             </div>
@@ -70,7 +70,7 @@ const Comparison2 = () => {
           </div>
   
           {/* Private Seller */}
-          <div className="bg-white shadow-lg text-center transform transition-transform hover:scale-105 card-pr-hover">
+          <div style={{height:"300px"}} className="bg-white shadow-lg text-center transform transition-transform hover:scale-105 card-pr-hover">
           <div style={{cursor:"pointer"}} className="bg-gray-200 text-gray-700 hover-bg-red   font-semibold text-lg py-2 ">
               Private Seller
             </div>

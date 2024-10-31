@@ -37,7 +37,20 @@
     font-size: 14px;
 }
 
+@media (max-width: 3000px){
+    .car1{
+        width: 96%;
+        height: 600px;
+    }
+}
 
+
+@media (max-width: 2500px){
+    .car1{
+        width: 96%;
+        height: 450px;
+    }
+}
 
 
 
@@ -80,3 +93,5 @@
         font-size: 1.5rem; 
     }
 }
+
+

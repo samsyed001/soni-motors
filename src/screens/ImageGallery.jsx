@@ -1,6 +1,7 @@
  import '../screens/ImageGallery.css'
  import InstagramCard from "../components/Cards";    
 import Footer from "../components/Footer";      
+import AutoPlaySlider from '../components/SliderCard';
 
 const ImageGallery = () => {
 
@@ -111,16 +112,8 @@ const ImageGallery = () => {
           </h2>
           <p className="text-gray-600">We are committed to making you a long-lasting customer and friend</p>
         </div>
-        <div className="grid gap-2 md:grid-cols-3 lg:grid-cols-4">
-          {posts.map((post, index) => (
-            <InstagramCard
-              key={index}
-              imgSrc={post.imgSrc}
-              likes={post.likes}
-              description={post.description}
-            />
-          ))}
-        </div>
+        
+        <AutoPlaySlider/>
       </section>
 
         <section>

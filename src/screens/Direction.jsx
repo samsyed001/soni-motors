@@ -5,9 +5,9 @@ const Direction = () => {
     return (
       <>
       
-      <div className="flex flex-col lg:flex-row gap-8 p-8 bg-gray-100 h-auto">
+      <div className="flex flex-col lg:flex-row gap-8 p-8  h-auto">
         {/* Map Section */}
-        <div className="p-6 shadow-lg rounded-md w-[60%] h-[auto] diret-wala">
+        <div className="p-6 shadow-lg rounded-md w-[60%] h-[auto] diret-wala"  style={{backgroundColor:"#F3F3F3"}}>
           
           <h1 className="text-3xl font-bold mb-6">Get Directions</h1>
           {/* Google Maps Embed */}
@@ -25,7 +25,7 @@ const Direction = () => {
         </div>
   
         {/* Contact Information Section */}
-        <div className=" p-6 shadow-lg rounded-md w-[35%] h-max  diret-wala"> {/* Set height to max-content */}
+        <div className=" p-6 shadow-lg rounded-md w-[35%] h-max  diret-wala " style={{backgroundColor:"#F3F3F3"}}> {/* Set height to max-content */}
         <h2 className="text-2xl font-semibold mb-6">Contact Information</h2>
         <div className="flex items-center gap-2 mb-4"> 
         <div>
@@ -57,7 +57,7 @@ const Direction = () => {
       </div>
       </div>
 
-      <section>
+      <section className="diewct-3000">
         <Footer/>
       </section>
       </>
